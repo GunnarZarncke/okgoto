@@ -1,4 +1,4 @@
-package de.franklounge
+package de.franklounge.okgoto
 
 import com.amazonaws.AmazonServiceException
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDB
