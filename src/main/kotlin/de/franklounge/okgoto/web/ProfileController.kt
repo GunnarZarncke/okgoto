@@ -1,6 +1,6 @@
 package de.franklounge.okgoto.web
 
-import de.franklounge.Mapper
+import de.franklounge.okgoto.model.Mapper
 import de.franklounge.okgoto.model.Profile
 import org.springframework.web.bind.annotation.*
 import java.util.*

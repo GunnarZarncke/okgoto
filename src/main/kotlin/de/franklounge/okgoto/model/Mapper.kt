@@ -1,4 +1,4 @@
-package de.franklounge
+package de.franklounge.okgoto.model
 
 import com.amazonaws.services.dynamodbv2.AmazonDynamoDBClientBuilder
 import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBMapper
