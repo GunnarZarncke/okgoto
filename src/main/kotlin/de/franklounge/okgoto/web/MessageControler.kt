@@ -1,22 +1,13 @@
-package de.franklounge
+package de.franklounge.okgoto.web
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable
+import de.franklounge.Mapper
+import de.franklounge.okgoto.model.Message
 import org.springframework.web.bind.annotation.*
-import java.util.*
-import kotlin.NoSuchElementException
 
 @RestController
 class MessageController(val mapper: Mapper) {
     @GetMapping("/message/{uuid}")
-    fun getMessage(@PathVariable("uuid") uuid: String, since: Long): Message {
-        return mapper.load(Message::class.java, uuid, since) ?: throw NoSuchElementException()
+    fun getMessage(@PathVariable("uuid") uuid: String, since: Long): List<Message> {
+        return mapper.load(Message::class.java, uuid, since)
     }
 }
-
-@DynamoDBTable(tableName = "Message")
-data class Message(
-    var id: String?,
-    var ts: Long,
-    var location: String?,
-    var message: String
-)

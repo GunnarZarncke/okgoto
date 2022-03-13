@@ -1,6 +1,7 @@
-package de.franklounge
+package de.franklounge.okgoto.web
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable
+import de.franklounge.Mapper
+import de.franklounge.okgoto.model.Profile
 import org.springframework.web.bind.annotation.*
 import java.util.*
 
@@ -41,14 +42,3 @@ class ProfileController(val mapper: Mapper) {
         mapper.save(profile)
     }
 }
-
-@DynamoDBTable(tableName = "Profile")
-data class Profile(
-    var id: String?,
-    var attributes: Map<String, Int>? = mapOf(),
-    var visible: List<String>? = listOf(),
-    var location: String? = null,
-    var last: Long? = null,
-    var lat: Double? = null,
-    var lon: Double? = null
-)

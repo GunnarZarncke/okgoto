@@ -1,6 +1,7 @@
-package de.franklounge
+package de.franklounge.okgoto.web
 
-import com.amazonaws.services.dynamodbv2.datamodeling.DynamoDBTable
+import de.franklounge.Mapper
+import de.franklounge.okgoto.model.Location
 import org.springframework.web.bind.annotation.*
 import java.util.*
 
@@ -40,11 +41,3 @@ class LocationController(val mapper: Mapper) {
     }
 }
 
-@DynamoDBTable(tableName = "Location")
-data class Location(
-    var id: String?,
-    var attributes: Map<String, Int>? = mapOf(),
-    var lat: Double? = null,
-    var lon: Double? = null,
-    var website: String? = null
-)
