@@ -1,7 +1,7 @@
+# Notes on used sources of data and other information
 
 
-
-#OpenStreetmap
+## OpenStreetmap
 
 OSM Overpass Query Editor and Download
 https://overpass-turbo.eu/
@@ -25,7 +25,37 @@ OSM relevant keys
 * https://wiki.openstreetmap.org/wiki/Key:leisure
 * https://wiki.openstreetmap.org/wiki/Key:amenity
 
+## Wikipedia Data
 
-#Wikipedia Data
 * [Wikipedia Download Page](https://de.wikipedia.org/wiki/Wikipedia:Technik/Datenbank/Download)
 * [Direct dump download link](https://dumps.wikimedia.org/dewiki/latest/dewiki-latest-pages-articles.xml.bz2) (6GB)
+
+Parsing the data:
+* [WikiPDA](https://github.com/epfl-dlab/WikiPDA/tree/master/WikiPDA-Lib) (extracting pages from Wikipedia via API)
+* https://m.mediawiki.org/wiki/Alternative_parsers
+* https://github.com/axkr/info.bliki.wikipedia_parser
+
+## Other
+
+* [List of 150 hobbies](https://hobbylark.com/misc/How-to-Choose-a-Hobby)
+
+## Algorithm
+
+### Nearest Neighbar
+Efficiently finding candidates profiles and locations for joining.  
+
+* [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs
+](https://arxiv.org/ftp/arxiv/papers/1603/1603.09320.pdf)
+* [HSNW Java implementation](https://github.com/jelmerk/hnswlib)
+
+### Determining Attributes
+
+* [Apache Open NLP](https://opennlp.apache.org/docs/1.7.2/manual/opennlp.html#intro.general.library.structure)
+* [Apache Open NLP Git](https://github.com/apache/opennlp)
+
+## UI
+
+Just some collected links:
+* https://www.gather.town/
+* https://meet.jit.si/
+* https://github.com/danielgatis/rembg
