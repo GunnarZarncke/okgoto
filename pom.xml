@@ -77,6 +77,11 @@
             <groupId>com.github.jelmerk</groupId>
             <version>1.0.1-SNAPSHOT</version>
         </dependency>
+        <dependency>
+            <artifactId>hnswlib-utils</artifactId>
+            <groupId>com.github.jelmerk</groupId>
+            <version>1.0.1-SNAPSHOT</version>
+        </dependency>
 
     </dependencies>
 
