@@ -14,17 +14,20 @@
   * design -> OPEN
   * OSM integration -> OPEN
 * Service
-  * Model -> OPEN
+  * Model -> IN PROGRESS
   * Authentication -> OPEN
 * API
-  * profile -> IN PROGRESS
-  * location -> OPEN
-  * search -> OPEN
+  * profile -> DONE
+  * location -> DONE
+  * search -> IN PROGRESS
   * messages -> OPEN
 * Data
   * Locations -> FOUND (Open Street Map, see [sources.md](sources.md))
   * Persons -> FOUND (test data Wikipedia plus random streets from OSM)
 * Algorithm
-  * 
+  * Extrating attributes from text -> FOUND
+  * Classification -> IN PROGRESS (Fasttext)
+  * Building groups of people and assigning locations -> CONCEPT
+  * Dynamically modifying groups and generating messages -> OPEN
 
   
