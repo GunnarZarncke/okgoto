@@ -40,15 +40,21 @@ Parsing the data:
 
 ## Other
 
+* [List of sports DE](https://de.wikipedia.org/wiki/Liste_von_Sportarten)
 * [List of 150 hobbies](https://hobbylark.com/misc/How-to-Choose-a-Hobby)
+* [List of Occupations DE](https://de.wikipedia.org/wiki/Liste_von_Ausbildungsberufen)
+
+Music 
+
+* [List of all Spotify Genres](https://everynoise.com/everynoise1d.cgi?scope=all)
+* [Spotify Track API yields genres](https://developer.spotify.com/documentation/web-api/reference/#/operations/get-track)
 
 ## Algorithm
 
 ### Nearest Neighbar
 Efficiently finding candidates profiles and locations for joining.  
 
-* [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs
-](https://arxiv.org/ftp/arxiv/papers/1603/1603.09320.pdf)
+* [Efficient and robust approximate nearest neighbor search using Hierarchical Navigable Small World graphs](https://arxiv.org/ftp/arxiv/papers/1603/1603.09320.pdf)
 * [HSNW Java implementation](https://github.com/jelmerk/hnswlib)
 
 ### Determining Attributes
@@ -56,9 +62,12 @@ Efficiently finding candidates profiles and locations for joining.
 * [Apache Open NLP](https://opennlp.apache.org/docs/1.7.2/manual/opennlp.html#intro.general.library.structure)
 * [Apache Open NLP Git](https://github.com/apache/opennlp)
 
+* [Compressed Fasttext](https://towardsdatascience.com/compressing-unsupervised-fasttext-models-eb212e9919ca)
+
 ## UI
 
 Just some collected links:
 * https://www.gather.town/
 * https://meet.jit.si/
 * https://github.com/danielgatis/rembg
+* 
