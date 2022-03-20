@@ -23,9 +23,14 @@
   * messages -> OPEN
 * Data
   * Locations -> FOUND (Open Street Map, see [sources.md](sources.md))
-  * Persons -> FOUND (test data Wikipedia plus random streets from OSM)
+  * Persons Test Data -> DONE (test data Wikipedia plus random streets from OSM)
+  * Categories -> In PROGRESS
+    * Sports - CLEANED
+    * Hobbies - CLEANED
+    * Jobs - FOUND
+    * Genres - FOUND (Music)
 * Algorithm
-  * Extrating attributes from text -> FOUND
+  * Extrating attributes from text -> DONE
   * Classification -> IN PROGRESS (Fasttext)
   * Building groups of people and assigning locations -> CONCEPT
   * Dynamically modifying groups and generating messages -> OPEN
